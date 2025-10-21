@@ -1,10 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
-        margin: 0;
-        padding: 0;
-        box-sizing: border-box;
-    }
-html {
-     font-family: "Raleway", sans-serif;
-    }
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Raleway", sans-serif;
+}
+
+/* Estilização de todo o corpo da página */
+body {
+    /* Degradê suave do céu: de um azul claro (sky) para um azul mais profundo */
+    background: linear-gradient(135deg, #e0f7fa 0%, #80deea 100%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333; /* Cor de texto padrão */
+}
