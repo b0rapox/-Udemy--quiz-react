@@ -1,5 +1,5 @@
 import Quiz from '../img/quiz.svg'
-import '../style/Welcome.css'
+import '../styles/Welcome.css'
 
 import { useContext } from 'react'
 import { QuizContext } from '../context/quiz.jsx'

@@ -1,0 +1,73 @@
+/* Container principal da questão */
+.question-container {
+    max-width: 600px;
+    width: 90%;
+    margin: 30px auto;
+    background-color: #ffffff; /* Fundo branco puro para legibilidade */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Indicador de progresso (ex: Pergunta 1 de 10) */
+.question-container > p {
+    font-size: 0.9em;
+    color: #6c757d; /* Cinza suave */
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* Título da Pergunta (h2) */
+.question-container h2 {
+    font-size: 1.8em;
+    color: #333;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+/* Container das Opções de Resposta */
+.options-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre as opções */
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+/* Estilo do Botão Continuar */
+.btn-continue {
+    background-color: #28a745; /* Cor de sucesso (verde) */
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    font-size: 1.1em;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    text-transform: uppercase;
+    font-weight: 500;
+    width: 100%; /* Botão em largura total */
+    max-width: 250px;
+    margin-top: 20px;
+}
+
+.btn-continue:hover {
+    background-color: #1e7e34;
+}
+
+/* Placeholder para as opções (o 'p' interno do div options-container) */
+.options-container p {
+    padding: 12px;
+    border: 2px solid #ced4da;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #f8f9fa;
+    transition: all 0.2s ease;
+}
+
+.options-container p:hover {
+    background-color: #e9ecef;
+    border-color: #007bff;
+}

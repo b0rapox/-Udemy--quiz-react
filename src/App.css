@@ -13,7 +13,7 @@
 /* Estilização de todo o corpo da página */
 body {
     /* Degradê suave do céu: de um azul claro (sky) para um azul mais profundo */
-    background: linear-gradient(135deg, #e0f7fa 0%, #80deea 100%);
+    background: linear-gradient(135deg, #1e4b6d, #3c8dc2, #7bc0eb, #3c8dc2, #1e4b6d );
     min-height: 100vh;
     display: flex;
     justify-content: center;
